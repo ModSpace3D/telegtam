@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.contailer {
+    margin: 0 166px;
+}
+
+.header {
+    background-image: url("bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
