@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root{
+    /* Color */
+    --but: #818181;
+    --label: #7F8493;
+    --buta: #24272C;
+    --shadowl: rgba(255, 255, 255, 0.04);
+    --shadowb: rgba(0, 0, 0, 0.25);
+
+
+}
+
+body {
+    background-color: var(--buta);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--label);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.shadow {
+}
+
+/* Shadow для кнопок */
+.shadow-panel {
+    box-shadow:
+            -4px -4px 8px rgba(255, 255, 255, 0.05),
+            4px 4px 8px rgba(0, 0, 0, 0.27);
+}
+.shadow-panel:hover,
+.shadow-panel_pressed{
+    box-shadow:
+            -4px -4px 8px rgba(255, 255, 255, 0.05),
+            4px 4px 8px rgba(0, 0, 0, 0.27),
+            inset -4px -4px 8px rgba(255, 255, 255, 0.05),
+            inset 4px 4px 8px rgba(0, 0, 0, 0.27);
+}
+
+.button {
+    border-radius: 8px;
+    margin: 32px;
+    padding: 16px 32px;
+    display: inline-block;
+}
+
+
+
